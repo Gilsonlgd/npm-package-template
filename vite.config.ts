@@ -21,9 +21,9 @@ export default defineConfig({
     minify: true,
     reportCompressedSize: true,
     lib: {
-      entry: path.resolve(__dirname, "src/main.ts"),
-      fileName: "main",
-      formats: ["es", "cjs"],
+      entry: "src/main.ts",
+      name: "main",
+      fileName: (format) => `main.${format}.js`,
     },
     rollupOptions: {
       external: [],
