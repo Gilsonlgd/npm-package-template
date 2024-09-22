@@ -1,2 +1,2 @@
-# Pacote NPM sem nome - TCC de Gilson Garcia
-Este pacote é voltado para a melhoria de produtividade e manutenção Design Patterns de projetos node.js
+# NPM package template
+This is a template for NPM packages using Vite and Typescript.
